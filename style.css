@@ -155,13 +155,54 @@ p {
 }
 
 /* hero section ends here */
-.offer-title {
+
+.image-container1{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    
+}
+.image-container1 img{
+    width: 620px;
+    height: 300px;
+    margin-bottom: 7px;
+}
+.destination-image-text1, .destination-image-text2, .destination-image-text3, .destination-image-text4, .destination-image-text5, .destination-image-text6{
+    position: absolute;
+    left: 20%;
+    bottom: 48%;
+    font-size: 30px;
+    font-weight: 800;
+    color: #FFF;
+}
+.destination-image-text2{
+    left: 70%;
+}
+.destination-image-text3{
+    left: 12%;
+}
+.destination-image-text4{
+    left: 45%;
+}
+.destination-image-text5{
+    left: 82%;
+}
+
+
+
+
+
+
+
+.offer-title, .destinations-title{
     width: 40%;
     margin: 50px auto 50px;
     text-align: center;
 }
 
-.offer-title h2 {
+.offer-title h2, .destinations-title h2 {
     padding: 20px;
     font-size: 30px;
     font-weight: 600px;

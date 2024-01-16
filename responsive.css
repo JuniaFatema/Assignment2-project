@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
     .navigation-bar {
         flex-direction: column;
     }
@@ -39,8 +39,7 @@
 
     /*  banner ends here */
 
-    .hero-section,
-    .ne {
+    .hero-section {
         flex-direction: column;
         width: 100%;
         margin: 0 auto;
@@ -57,17 +56,49 @@
     }
 
     .hero img {
-        height: 300px;
+        height: 200px;
+        width: 450px;
     }
 
     .hero h2 {
         padding: 0;
     }
-    .offer-container, .container-3{
+    .destinations{
+        width: 600px;
+    }
+    .image-container1 img{
+        width: 520px;
+    }
+    .destination-image-text1{
+        top: 20%;
+        left: 45%;
+    }
+    .destination-image-text2{
+        bottom: 20%;
+        left: 40%;
+    }
+    .destination-image-text3{
+        top: 15%;
+        left: 50%;
+    }
+    .destination-image-text4{
+        bottom: 48%;
+        right: 53%;
+    }
+    .destination-image-text5{
+        top: 80%;
+        left: 45%;
+    }
+    .destination-image-text6{
+        bottom: 75%;
+        left: 45%;
+    }
+
+    .offer-container, .container-3, .image-container1{
         flex-direction: column;
         width: 90%;
     }
-    .offer-title{
+    .offer-title, .destinations-title{
         width: 70%;
     }
 
@@ -83,7 +114,7 @@
     }
 
     .newsletter-img img{
-        width: 435px;
+        width: 410px;
         height: 350px;
         margin-left: 50px;
     }
