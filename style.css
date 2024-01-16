@@ -316,7 +316,7 @@ p {
     border-radius: 5px;
     color: #FFF;
     position: absolute;
-    bottom: 20%;
+    bottom: 30%;
     left: 58%;
     transform: rotate(-20deg);
     transform-origin: 100% 0;
@@ -392,4 +392,28 @@ p {
     transform: scale(1.15);
    
 }
+footer{
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+}
+footer > .nav-title{
+    padding: 90px 0 15px 0;
+}
+.footer-design{
+    width: 780px;
+    margin: 0 auto;
+    text-align: center;
+}
+.last-message{
+    padding: 30px;
+}
+.social-media-icon img{
+    width: 3%;
+    margin: 5px 20px 35px 2px;
+}
+hr{
+    margin-bottom: 70px;
+}
+
 

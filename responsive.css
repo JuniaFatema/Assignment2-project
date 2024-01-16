@@ -158,4 +158,33 @@
 
     }
 
+    footer {
+        max-width: 600px;
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    footer .nav-title {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .last-message p {
+        width: 500px;
+        text-align: center;
+        padding: 5px;
+
+    }
+
+    .social-media-icon {
+        width: 500px;
+        text-align: center;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    footer > .nav-title{
+        padding: 20px 0 15px 0;
+    }
+
 }
