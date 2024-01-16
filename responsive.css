@@ -1,6 +1,10 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .navigation-bar {
         flex-direction: column;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 
     .nav-title {
@@ -63,42 +67,54 @@
     .hero h2 {
         padding: 0;
     }
-    .destinations{
+
+    .destinations {
         width: 600px;
     }
-    .image-container1 img{
+
+    .image-container1 img {
         width: 520px;
     }
-    .destination-image-text1{
+
+    .destination-image-text1 {
         top: 20%;
         left: 45%;
     }
-    .destination-image-text2{
+
+    .destination-image-text2 {
         bottom: 20%;
         left: 40%;
     }
-    .destination-image-text3{
+
+    .destination-image-text3 {
         top: 15%;
         left: 50%;
     }
-    .destination-image-text4{
+
+    .destination-image-text4 {
         bottom: 48%;
         right: 53%;
     }
-    .destination-image-text5{
+
+    .destination-image-text5 {
         top: 80%;
         left: 45%;
     }
-    .destination-image-text6{
+
+    .destination-image-text6 {
         bottom: 75%;
         left: 45%;
     }
 
-    .offer-container, .container-3, .image-container1{
+    .offer-container,
+    .container-3,
+    .image-container1 {
         flex-direction: column;
         width: 90%;
     }
-    .offer-title, .destinations-title{
+
+    .offer-title,
+    .destinations-title {
         width: 70%;
     }
 
@@ -113,20 +129,33 @@
         margin-bottom: 10px;
     }
 
-    .newsletter-img img{
-        width: 410px;
+    .newsletter-img img {
+        width: 450px;
         height: 350px;
         margin-left: 50px;
     }
-    .discount{
+
+    .discount {
         bottom: 20%;
-        left: 22%;
+        left: 24%;
         width: 180px;
         height: 50px;
         padding-top: 2px;
     }
-    .discount h2{
+
+    .discount h2 {
         font-size: 15px;
+    }
+
+    .travel-essentials {
+        flex-direction: column;
+    }
+
+    .travel-essentials .image1,
+    .image2,
+    .image3 {
+        width: 90%;
+
     }
 
 }

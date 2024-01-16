@@ -156,20 +156,27 @@ p {
 
 /* hero section ends here */
 
-.image-container1{
+.image-container1 {
     width: 1250px;
     margin: 0 auto;
     display: flex;
     gap: 10px;
     position: relative;
-    
+
 }
-.image-container1 img{
+
+.image-container1 img {
     width: 620px;
     height: 300px;
     margin-bottom: 7px;
 }
-.destination-image-text1, .destination-image-text2, .destination-image-text3, .destination-image-text4, .destination-image-text5, .destination-image-text6{
+
+.destination-image-text1,
+.destination-image-text2,
+.destination-image-text3,
+.destination-image-text4,
+.destination-image-text5,
+.destination-image-text6 {
     position: absolute;
     left: 20%;
     bottom: 48%;
@@ -177,32 +184,32 @@ p {
     font-weight: 800;
     color: #FFF;
 }
-.destination-image-text2{
+
+.destination-image-text2 {
     left: 70%;
 }
-.destination-image-text3{
+
+.destination-image-text3 {
     left: 12%;
 }
-.destination-image-text4{
+
+.destination-image-text4 {
     left: 45%;
 }
-.destination-image-text5{
+
+.destination-image-text5 {
     left: 82%;
 }
 
-
-
-
-
-
-
-.offer-title, .destinations-title{
+.offer-title,
+.destinations-title {
     width: 40%;
     margin: 50px auto 50px;
     text-align: center;
 }
 
-.offer-title h2, .destinations-title h2 {
+.offer-title h2,
+.destinations-title h2 {
     padding: 20px;
     font-size: 30px;
     font-weight: 600px;
@@ -228,14 +235,16 @@ p {
 }
 
 .container-1 img,
-.container-2 img, .container-3 img {
+.container-2 img,
+.container-3 img {
     width: 70px;
     height: 70px;
     padding: 10px;
 }
 
 .container-1 h3,
-.container-2 h3, .container-3 h3 {
+.container-2 h3,
+.container-3 h3 {
     font-size: 20px;
     padding: 15px 10px 20px 0;
 }
@@ -258,6 +267,7 @@ p {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
 /* offer container properties ends here */
 .newsletter {
     width: 1250px;
@@ -311,8 +321,75 @@ p {
     transform: rotate(-20deg);
     transform-origin: 100% 0;
 }
-.discount p{
+
+.discount p {
     color: #FFF;
 }
 
 /* Newsletter section ends here */
+.miscellaneous-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    padding: 20px;
+}
+.miscellaneous-title h1{
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 700px;
+    color: rgb(219, 83, 129);
+
+}
+.miscellaneous-title img{
+    border-radius: 50%;
+    width: 100px;
+}
+.travel-essentials img{
+    width: 390px;
+    height: 300px;
+    border-radius: 10px;
+    transition:0.3 ease-in-out;
+}
+.travel-essentials{
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.image1, .image2, .image3{
+    position: relative;
+}
+.image1 p img{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    bottom: 4px;
+    left: 120px;
+    background-color: #FFF;
+    border: none;
+}
+.image2 p, .image3 p{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    bottom: 4px;
+    left: 120px;
+    background-color: #FFF;
+    border: none;
+    text-align: center;
+    padding-top: 25px;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500px;
+    border-radius: 10px 10px 0 0;
+
+}
+.travel-essentials img:hover{
+    transform: scale(1.15);
+   
+}
+
